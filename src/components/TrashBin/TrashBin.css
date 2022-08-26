@@ -1,0 +1,47 @@
+/* homepage */
+.trash-bin-details {
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+}
+.trash-bin-details h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: var(--primary);
+}
+.trash-bin-details p.name {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.trash-bin-details p.timestamp {
+  font-weight: 100;
+  font-size: 0.9em;
+}
+.trash-bin-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #555;
+}
+.trash-bin-details span.check {
+  top: 20px;
+  right: 100px;
+}
+.trash-bin-details span.edit {
+  top: 20px;
+  right: 60px;
+}
+.trash-bin-details span.delete {
+  top: 20px;
+  right: 20px;
+}
+.trash-bin-details span {
+  position: absolute;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+}

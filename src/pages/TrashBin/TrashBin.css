@@ -1,0 +1,7 @@
+.trashBin {
+  display: grid;
+  grid-template-columns: 5fr;
+  gap: 100px;
+  max-width: 1400px;
+  margin: 0 auto;
+}

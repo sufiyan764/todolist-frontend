@@ -1,0 +1,47 @@
+/* homepage */
+.expired-tasks-details {
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+}
+.expired-tasks-details h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: var(--primary);
+}
+.expired-tasks-details p.name {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.expired-tasks-details p.timestamp {
+  font-weight: 100;
+  font-size: 0.9em;
+}
+.expired-tasks-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #555;
+}
+.expired-tasks-details span.check {
+  top: 20px;
+  right: 100px;
+}
+.expired-tasks-details span.edit {
+  top: 20px;
+  right: 60px;
+}
+.expired-tasks-details span.delete {
+  top: 20px;
+  right: 20px;
+}
+.expired-tasks-details span {
+  position: absolute;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+}
